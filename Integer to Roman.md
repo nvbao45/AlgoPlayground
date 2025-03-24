@@ -63,12 +63,22 @@ Note: 49 is not 1 (I) less than 50 (L) because the conversion is based on decima
 **Constraints:**
 - <code>1 <= num <= 3999</code>
 
+---
+## Approach
+1. **Define Roman Numerals:** Create a list of tuples containing the integer values and their corresponding Roman numeral symbols in descending order.
+2. **Initialize Result:** Initialize an empty list to store the Roman numeral symbols as we build the result.
+3. **Iterate through Values:** Loop through the list of Roman numeral values and symbols. For each value, check if the input number is greater than or equal to that value.
+4. **Append Symbols:** While the input number is greater than or equal to the current value, append the corresponding Roman numeral symbol to the result list and subtract the value from the input number.
+5. **Join Result:** After processing all values, join the list of symbols into a single string and return it as the final Roman numeral representation.
+6. **Return Result:** Return the final Roman numeral string.
+
 ---  
 
-## Solution
-**Time Complexity:** O(1)  
-**Space Complexity:** O(1)
+## Code
+**Time Complexity:** O(1), since the number of Roman numeral symbols is constant and does not depend on the input size.  
+**Space Complexity:** O(1), as we are using a fixed amount of space for the result string.
 
+**Python Code:**
 ```python
 class Solution:
     def intToRoman(self, num: int) -> str:

@@ -51,11 +51,18 @@ Meetings are scheduled for all working days.
 </details>  
   
 ---
+## Approach
+1. **Merge Intervals:** First, we need to merge the overlapping meetings. This can be done by sorting the meetings based on their start times and then iterating through them to merge any overlapping intervals.
+2. **Count Available Days:** After merging the meetings, we can count the available days by checking the gaps between the merged meetings. We will also consider the days before the first meeting and after the last meeting.
+3. **Return Result:** Finally, we return the total count of available days.
 
-## Solution  
-**Time Complexity:** O(n log n)  
-**Space Complexity:** O(n)
 
+## Code  
+**Time Complexity:** O(n log n) where n is the number of meetings.  
+**Space Complexity:** O(n), for storing the merged intervals.
+
+
+**Python Code:**
 ```python
 class Solution:
     def merge_intervals(self, intervals: List[List[int]]) -> List[List[int]]:
