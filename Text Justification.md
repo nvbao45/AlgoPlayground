@@ -1,3 +1,10 @@
+# LeetCode 68. Text Justification
+#### Problem Link: https://leetcode.com/problems/text-justification
+#### Difficulty: <span style="color:#f63636">Hard</span>  
+#### Topics: Array, String, Simulation
+
+---
+## Description
 Given an array of strings `words` and a width `maxWith`, format the text such that each line has exactly `maxWidth` characters and is fully (left and right) justified.  
   
 You should pack your words in a greedy approach; that is, pack as many words as you can in each line. Pad extra space `' '` when necessary so that each line has exactly `maxWidth` characters.  
@@ -48,9 +55,19 @@ Note that the second line is also left-justified because it contains only one wo
   "do                  "
 ]
 </pre>
-  
+
+**Constraints:**
+- <code>1 <= words.length <= 300</code>
+- <code>1 <= words[i].length <= 20</code>
+- <code>words[i]</code> consists of only English letters and symbols.
+- <code>1 <= maxWidth <= 100</code>
+- <code>words[i].length <= maxWidth</code>
+
 ---
-**Solutions**
+## Solutions  
+**Time Complexity:** O(n)  
+**Space Complexity:** O(n)
+
 ```python
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:

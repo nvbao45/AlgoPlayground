@@ -1,3 +1,11 @@
+# LeetCode 12. Integer to Roman
+#### Problem Link: https://leetcode.com/problems/integer-to-roman
+#### Difficulty: <span style="color:#ffb800">Medium</span>  
+#### Topics: Hash Table, Math, String
+
+---
+## Description
+
 Seven different symbols represent Roman numerals with the following values:
 
 |Symbol|Value |
@@ -55,8 +63,12 @@ Note: 49 is not 1 (I) less than 50 (L) because the conversion is based on decima
 **Constraints:**
 - <code>1 <= num <= 3999</code>
 
----
-**Solution**
+---  
+
+## Solution
+**Time Complexity:** O(1)  
+**Space Complexity:** O(1)
+
 ```python
 class Solution:
     def intToRoman(self, num: int) -> str:
