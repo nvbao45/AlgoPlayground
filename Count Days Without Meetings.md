@@ -1,3 +1,10 @@
+# LeetCode 3169. Count Days Without Meetings
+#### Problem Link: https://leetcode.com/problems/#### count-days-without-meetings/description/  
+#### Difficulty: <span style="color:#ffb800">Medium</span>  
+#### Topics: Array, Sorting
+
+---
+**Description**  
 You are given a positive integer `days` representing the total number of days an employee is available for work (starting from day 1). You are also given a 2D array `meetings` of size `n` where, `meetings[i] = [start_i, end_i]` represents the starting and ending days of meeting `i` (inclusive).  
 
 Return the count of days when the employee is available for work but no meetings are scheduled.
