@@ -81,7 +81,10 @@ Note that the second line is also left-justified because it contains only one wo
 **Time Complexity:** O(n), where n is the total number of characters in all words.  
 **Space Complexity:** O(n), for storing the result list.
 
-**Python Code:**
+**Python Code:**  
+[Playground](https://leetcode.com/playground/Q7aECVSG)
+<iframe src="https://leetcode.com/playground/Q7aECVSG/shared" frameBorder="0" width="400" height="300"></iframe>  
+
 ```python
 class Solution:
     def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
