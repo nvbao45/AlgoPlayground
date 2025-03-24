@@ -1,5 +1,5 @@
 # LeetCode 3169. Count Days Without Meetings
-#### Problem Link: https://leetcode.com/problems/#### count-days-without-meetings/description/  
+#### Problem Link: https://leetcode.com/problems/count-days-without-meetings
 #### Difficulty: <span style="color:#ffb800">Medium</span>  
 #### Topics: Array, Sorting
 
