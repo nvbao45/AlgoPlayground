@@ -83,7 +83,7 @@ Note that the second line is also left-justified because it contains only one wo
 
 **Python Code:**  
 [Playground](https://leetcode.com/playground/Q7aECVSG)
-<iframe src="https://leetcode.com/playground/Q7aECVSG/shared" frameBorder="0" width="400" height="300"></iframe>  
+
 
 ```python
 class Solution:
