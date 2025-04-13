@@ -1,4 +1,4 @@
-## ⚡ Fast Exponentiation Algorithm
+# ⚡ Fast Exponentiation Algorithm
 
 The **Fast Exponentiation Algorithm**, also known as **Exponentiation by Squaring**, is an efficient method to compute <code>a<sup>n</sup></code> (`a` raised to the power of `n`), especially when `n` is a large number.
 
