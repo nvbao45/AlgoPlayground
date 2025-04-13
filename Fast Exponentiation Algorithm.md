@@ -39,13 +39,12 @@ def fast_power(a, n):
 
 ## 🔁 Iterative Version (Python)
 ```python
-def fast_power_mod(a, n, mod):
+def fast_power_iterative(a, n):
     result = 1
-    a = a % mod
     while n > 0:
         if n % 2 == 1:
-            result = (result * a) % mod
-        a = (a * a) % mod
+            result *= a
+        a *= a
         n //= 2
     return result
 ```
